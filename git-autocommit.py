@@ -63,7 +63,7 @@ class AutoCommitListener(sublime_plugin.EventListener):
 			return
 
 		# auto-commit on_modified after...
-		delay = 30 # seconds
+		delay = 60 # seconds
 
 		'''
 		Must use this callback for ST2 compatibility
